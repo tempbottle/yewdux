@@ -15,16 +15,16 @@ default = ["future"]
 future = ["wasm-bindgen-futures"]
 
 [dependencies]
-anymap = "0.12.1"
-log = "0.4.16"
-serde = { version = "1.0.114" }
-serde_json = "1.0.64"
+anymap = "0.12"
+log = "0.4"
+serde = { version = "1.0" }
+serde_json = "1.0"
 slab = "0.4"
 thiserror = "1.0"
 wasm-bindgen = "0.2"
-wasm-bindgen-futures = { version = "0.4.30", optional = true }
-web-sys = "0.3.51"
-yew = { git = "https://github.com/yewstack/yew.git" }
+wasm-bindgen-futures = { version = "0.4", optional = true }
+web-sys = "0.3"
+yew = { git = "https://github.com/tempbottle/yew.git", rev="7ddf267" }
 yewdux-macros = { path = "../yewdux-macros" }
 
 [dev-dependencies]
